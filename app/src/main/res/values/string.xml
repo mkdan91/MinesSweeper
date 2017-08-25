@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MineSweeper</string>
+    <string name="preference_file">MineSweeperPref</string>
+    <string name="saved_high_score_easy">HighScoreEasy</string>
+    <string name="saved_high_score_medium">HighScoreMedium</string>
+    <string name="saved_high_score_hard">HighScoreHard</string>
+    <string name="player_easy">PlayerNameEasy</string>
+    <string name="player_medium">PlayerNameMedium</string>
+    <string name="player_hard">PlayerNameHard</string>
+
+    <string name="username">your name:</string>
+
+
+
+    <string name="HelpText1">
+        "Introduction:
+        The idea of the game is very simple - to find and label a fixed number of mines which have been
+        randomly distributed across a grid.\n
+
+        When the game is started, the player is presented with a grid of blank squares. When a grid square is clicked on - it reveals the number of mines in adjacent squares(unless it's a mine, in which case it's game over). By using logic, players can in many ways use this information to find the squares without mines (or mine-filled),
+        and proceed to click on additional squares to clear them or mark them with flag to indicate the presence of a mine. The game is over when abstract minefield is cleared
+        from all mines, or in case the player clicks on the square with mine.
+
+        There are 3 predefined difficulty levels (beginner, intermediate, expert),
+        which define how much mines player must find to win the game.
+
+        tips:
+        The player can place a flag graphic on any square believed to contain a mine.
+        Special switch-button is used for switching to "Flag mode" (enables player to place flag).
+        Press this button to enter or exit this mode. Squares marked with a flag can be cleared or added only in
+        "Flag mode"."
+    </string>
+
+
+
+</resources>
